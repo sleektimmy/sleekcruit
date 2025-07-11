@@ -13,7 +13,7 @@ const jobs = [
       "Proficiency in simulation tools (ModelSim, Xilinx Vivado)",
     ],
     postedAt: "2025-06-10",
-    endDate: "2025-06-22",
+    endDate: "2025-07-22",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const jobs = [
       "Strong mathematical and programming background",
     ],
     postedAt: "2025-06-11",
-    endDate: "2025-06-23",
+    endDate: "2025-07-23",
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ const jobs = [
       "Familiarity with PCB design and debugging tools",
     ],
     postedAt: "2025-06-12",
-    endDate: "2025-06-24",
+    endDate: "2025-08-24",
   },
   {
     id: 4,
@@ -61,7 +61,7 @@ const jobs = [
       "Strong C++ and Python programming skills",
     ],
     postedAt: "2025-06-13",
-    endDate: "2025-06-25",
+    endDate: "2025-07-25",
   },
   {
     id: 5,
@@ -77,7 +77,7 @@ const jobs = [
       "Proficiency in Python or Node.js",
     ],
     postedAt: "2025-06-14",
-    endDate: "2025-06-26",
+    endDate: "2025-07-26",
   },
   {
     id: 6,
@@ -93,7 +93,7 @@ const jobs = [
       "Familiarity with model deployment and optimization",
     ],
     postedAt: "2025-06-15",
-    endDate: "2025-06-27",
+    endDate: "2025-08-27",
   },
   {
     id: 7,
@@ -109,7 +109,7 @@ const jobs = [
       "Familiarity with SoC and memory interfacing",
     ],
     postedAt: "2025-06-16",
-    endDate: "2025-06-28",
+    endDate: "2025-10-28",
   },
   {
     id: 8,
@@ -125,7 +125,7 @@ const jobs = [
       "Familiarity with network monitoring tools",
     ],
     postedAt: "2025-06-17",
-    endDate: "2025-06-29",
+    endDate: "2025-09-29",
   },
   {
     id: 9,
@@ -141,7 +141,7 @@ const jobs = [
       "Understanding of interface protocols (I2C, SPI, REST)",
     ],
     postedAt: "2025-06-18",
-    endDate: "2025-06-30",
+    endDate: "2025-09-30",
   },
   {
     id: 10,
@@ -157,7 +157,7 @@ const jobs = [
       "Knowledge of CI/CD tools like Jenkins or GitHub Actions",
     ],
     postedAt: "2025-06-19",
-    endDate: "2025-07-01",
+    endDate: "2025-08-01",
   },
   {
     id: 11,
@@ -173,7 +173,7 @@ const jobs = [
       "Understanding of interrupt handling and scheduling",
     ],
     postedAt: "2025-06-20",
-    endDate: "2025-07-02",
+    endDate: "2025-09-02",
   },
   {
     id: 12,
@@ -189,7 +189,7 @@ const jobs = [
       "Familiarity with Linux and job schedulers (SLURM, PBS)",
     ],
     postedAt: "2025-06-21",
-    endDate: "2025-07-03",
+    endDate: "2025-11-03",
   },
   {
     id: 13,
@@ -205,7 +205,7 @@ const jobs = [
       "Knowledge of IoT protocols (MQTT, CoAP)",
     ],
     postedAt: "2025-06-22",
-    endDate: "2025-07-04",
+    endDate: "2025-09-04",
   },
   {
     id: 14,
@@ -221,7 +221,7 @@ const jobs = [
       "Experience with quantum simulators and Python",
     ],
     postedAt: "2025-06-23",
-    endDate: "2025-07-05",
+    endDate: "2025-12-05",
   },
   {
     id: 15,
@@ -237,7 +237,7 @@ const jobs = [
       "Familiarity with automotive or drone platforms",
     ],
     postedAt: "2025-06-24",
-    endDate: "2025-07-06",
+    endDate: "2025-10-06",
   },
   {
     id: 16,
@@ -253,7 +253,7 @@ const jobs = [
       "Familiarity with TI or ARM DSP platforms",
     ],
     postedAt: "2025-06-25",
-    endDate: "2025-07-07",
+    endDate: "2025-10-07",
   },
   {
     id: 17,
@@ -274,7 +274,7 @@ At DevSphere, you’ll be part of an innovative team building next-generation ha
       "Understanding of digital signal processing (DSP)",
     ],
     postedAt: "2025-06-18",
-    endDate: "2025-06-30",
+    endDate: "2025-09-30",
   },
   {
     id: 18,
@@ -295,7 +295,7 @@ You’ll collaborate with cross-functional teams and deploy systems in challengi
       "Background in robotics, AI, or machine learning",
     ],
     postedAt: "2025-06-19",
-    endDate: "2025-07-01",
+    endDate: "2025-09-01",
   },
   {
     id: 19,
@@ -316,7 +316,7 @@ AgileTeams Ltd. offers a flexible and collaborative environment where engineerin
       "Knowledge of system-level debugging tools (GDB, strace)",
     ],
     postedAt: "2025-06-20",
-    endDate: "2025-07-02",
+    endDate: "2025-10-02",
   },
   {
     id: 20,
@@ -337,7 +337,7 @@ As part of a collaborative team, you’ll work with software engineers, research
       "Knowledge of signal conditioning and real-time systems",
     ],
     postedAt: "2025-06-21",
-    endDate: "2025-07-03",
+    endDate: "2025-10-03",
   },
 ];
 
