@@ -6,7 +6,7 @@ export default function NavData() {
     <>
     <li>
       <Link href="/">
-    <Image src="/logo.jpg" alt="Logo" width={50} height={50} className="rounded-full" />
+    <Image src="/logo.png" alt="Logo" width={200} height={100} className="md:block hidden" />
   </Link>
 </li>
     <li><Link href="/about">About</Link></li>
