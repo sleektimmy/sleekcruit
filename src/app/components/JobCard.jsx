@@ -6,7 +6,7 @@ import Button from "./Button";
 export default function JobCard(props) {
     const jobList = jobs.map((job) => (
         <article key={job.id} className="job-card text-center">
-            <p className="text-white w-fit p-2 bg-red-800 rounded-r-2xl">
+            <p className="text-white w-fit p-2 bg-red-500 rounded-r-2xl">
               <MdHomeWork className="inline-block mr-2 text-2xl" />
               <span>{job.company}</span>
 

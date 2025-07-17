@@ -24,9 +24,9 @@ export default function JobDescription({ params }) {
       <Image
         src={`/${jobDetails.id !== null ? jobDetails.id : "hire"}.jpg`}
         alt={jobDetails.title}
-        width={300}
-        height={300}
-        className="rounded-full"
+        width={500}
+        height={500}
+        className="rounded-full shadow-md mb-6"
       />
       <div className="flex justify-center items-center w-full">
         <h1 className="font-bold text-3xl py-4 border-b-4 uppercase border-double my-5 ">
@@ -39,7 +39,7 @@ export default function JobDescription({ params }) {
                 (1000 * 60 * 60 * 24)
             ) < 4
               ? "bg-red-500 animate-pulse"
-              : "bg-red-800"
+              : "bg-red-500"
           }`}
         >
           {Math.ceil(
@@ -80,7 +80,7 @@ export default function JobDescription({ params }) {
         <ul className="list-none space-y-2">
           {jobDetails.requirements.map((requirement, index) => (
             <li key={index} className="flex items-start gap-2">
-              <SiListmonk className="mt-1 text-red-800" />
+              <SiListmonk className="mt-1 text-red-500" />
               <span>{requirement}</span>
             </li>
           ))}
@@ -100,7 +100,7 @@ export default function JobDescription({ params }) {
                 ? "no longer available"
                 : "apply for this role"
             }
-            className="bg-red-800 text-white font-semibold py-2 px-4 rounded-full capitalize cursor-pointer mt-4 hover:bg-red-600 transition-colors duration-300"
+            className="bg-red-500 text-white font-semibold py-2 px-4 rounded-full capitalize cursor-pointer mt-4 hover:bg-red-600 transition-colors duration-300"
             {...(Math.ceil(
               (new Date(jobDetails.endDate) - new Date()) /
                 (1000 * 60 * 60 * 24)
@@ -129,7 +129,7 @@ export default function JobDescription({ params }) {
               <p className="text-gray-600">Location: {job.location}</p>
               <Link
                 href={`/jobs/${job.title.toLowerCase().replace(/\s+/g, "-")}`}
-                className="text-red-800 hover:underline"
+                className="text-red-500 hover:underline"
               >
                 View Details
               </Link>
