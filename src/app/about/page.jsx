@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="bg-white font-lg min-h-screen py-12 px-4 md:px-20">
       <section className="max-w-4xl mx-auto text-center">
-        <h1 className="text-5xl text-red-800  mb-6  inline-block pb-5">
+        <h1 className="text-5xl text-red-500  mb-6  inline-block pb-5">
          We are the bridge to the perfect job match
         </h1>
        <Image src={"/shake.png"} alt="Handshake" width={2000} height={2000} className="mx-auto w-full rounded-full mb-8" />
@@ -19,7 +19,7 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
           <div>
             <Image src={"/job-hunt.png"} alt="Job Hunt" width={500} height={500} className="rounded-lg mb-4" />
-            <h2 className="text-2xl font-semibold mb-3 text-red-800">👥 Who We Help</h2>
+            <h2 className="text-2xl font-semibold mb-3 text-red-500">👥 Who We Help</h2>
             <p>
               SleekCruit empowers HR teams to publish roles effortlessly while helping job seekers
               discover and apply to opportunities that align with their career goals.
@@ -27,7 +27,7 @@ const About = () => {
           </div>
           <div>
             <Image src={"/why-us.png"} alt="HR Team" width={500} height={500} className="rounded-lg mb-4" />
-            <h2 className="text-2xl font-semibold mb-3 text-red-800">🚀 Why SleekCruit?</h2>
+            <h2 className="text-2xl font-semibold mb-3 text-red-500">🚀 Why SleekCruit?</h2>
             <p>
               With a focus on simplicity, speed, and a sleek design, SleekCruit eliminates
               complexity in hiring. Our platform is as efficient as it is elegant.
@@ -53,7 +53,7 @@ const About = () => {
         <div className="mt-12">
           <a
             href="/jobs"
-            className="bg-red-800 text-white px-6 py-3 my-4 font-bold rounded-lg hover:bg-red-700 transition"
+            className="bg-red-500 text-white px-6 py-3 my-4 font-bold rounded-lg hover:bg-red-700 transition"
           >
             Explore Jobs
           </a>
@@ -64,7 +64,7 @@ const About = () => {
 
  <br />
  <div>
-    <h1 className="text-5xl text-red-800 nline-block ">
+    <h1 className="text-5xl text-red-500 nline-block ">
          Meet The Team
         </h1>
         <p className="text-lg font-italic text-gray-600 mb-8">
@@ -96,7 +96,7 @@ const About = () => {
       },
     ].map((member, index) => (
       <div key={index} className="flex flex-col items-center">
-        <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-red-800 mb-4 shadow-md">
+        <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-red-500 mb-4 shadow-md">
           <img
             src={member.image}
             alt={member.name}
@@ -109,7 +109,7 @@ const About = () => {
     ))}
   </div>
  </section>
- <section className="bg-red-50 py-16 px-4 md:px-20 text-red-800 text-center">
+ <section className="bg-red-50 py-16 px-4 md:px-20 text-red-500 text-center">
   <h2 className="text-3xl font-bold mb-10">Our Core Values</h2>
 
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto text-left">

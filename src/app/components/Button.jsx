@@ -9,7 +9,7 @@ export default function Button({title}) {
   };
 
   return (
-    <button className="bg-red-800 text-white px-4 py-2 rounded hover:bg-red-600 capitalize m-4 cursor-pointer transition duration-300"
+    <button className="bg-black text-white px-4 py-2 rounded hover:bg-red-600 capitalize m-4 cursor-pointer transition duration-300"
     onClick={handleClick}>
       Read more
     </button>

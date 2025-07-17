@@ -9,7 +9,7 @@ export default function Success({title}) {
   };
 
   return (
-     <button type="submit" className="w-full bg-red-800 text-white py-2  cursor-pointer rounded hover:bg-red-700 transition duration-200" onClick={handleClick} >Submit Application</button>
+     <button type="submit" className="w-full bg-red-500 text-white py-2  cursor-pointer rounded hover:bg-red-700 transition duration-200" onClick={handleClick} >Submit Application</button>
    
   );
 }
